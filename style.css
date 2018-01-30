@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#content {
+  text-align: center;
+}
+
+#logo {
+  width: 175px;
+  height: 150px;
+}
+
+#title {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
