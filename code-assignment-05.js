@@ -26,8 +26,8 @@ let webapps = [
 ]
 
 console.log("The following webapps are not complete: ");
-for(var i = 0, i < webapps.length, i++) {
-  if(!(webapps[i].complete === true)) {
+for(var i = 0; i < webapps.length; i++) {
+  if(!webapps[i].complete) {
     console.log(webapps[i].title);
   }
 }
