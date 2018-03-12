@@ -1,9 +1,24 @@
-let myNumber = 7;
-let myString = "This is my string.";
-let myBoolean = true;
-let myArray = ['apple', 'orange', 'pear'];
+let exampleArray = [
+  27,
+  'test test test',
+  true,
+  'this is a test string.',
+  ['red', 'orange', 'blue', 'green']
+]
 
-console.log("My number is " + myNumber);
-console.log("My string is: \"" + myString + "\"");
-console.log("My boolean is " + myBoolean);
-console.log("My array is " + myArray.toString());
+let exampleObject = {
+  num: 27,
+  str1: 'test test test',
+  testBool: true,
+  str2: 'this is a test string.',
+  colors: [
+    'red',
+    'orange',
+    'blue',
+    'green'
+  ]
+}
+
+console.log(exampleArray[3]);
+console.log(exampleObject.str2);
+console.log(exampleObject["str2"]);
