@@ -1,9 +1,33 @@
-let myNumber = 7;
-let myString = "This is my string.";
-let myBoolean = true;
-let myArray = ['apple', 'orange', 'pear'];
+let webapp1 = {
+  id: 1,
+  title: 'WebApp 1',
+  desc: 'The first WebApp.',
+  complete: true
+}
 
-console.log("My number is " + myNumber);
-console.log("My string is: \"" + myString + "\"");
-console.log("My boolean is " + myBoolean);
-console.log("My array is " + myArray.toString());
+let webapp2 = {
+  id: 2,
+  title: 'WebApp 2',
+  desc: 'The second WebApp.',
+  complete: true
+}
+
+let webapp3 = {
+  id: 3,
+  title: 'WebApp 3',
+  desc: 'The third WebApp.',
+  complete: false
+}
+
+let webapps = [
+  webapp1,
+  webapp2,
+  webapp3
+]
+
+console.log("The following webapps are not complete: ");
+for(var i = 0, i < webapps.length, i++) {
+  if(!webapps[i].complete) {
+    console.log(webapps[i].title);
+  }
+}
