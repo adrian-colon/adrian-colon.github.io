@@ -13,8 +13,27 @@ body {
   padding-left: 29px;
 }
 
+/*.back {
+  display: inline-block;
+  text-align: left;
+}
+
+#back-button {
+  text-align: left;
+}
+
+.header-title {
+  display: inline-block;
+  text-align: center;
+}*/
+
 #title {
   font-weight: bold;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
 }
 
 ul {

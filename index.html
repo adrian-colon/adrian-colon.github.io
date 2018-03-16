@@ -1,48 +1,118 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <title>Adrian's GEOG4046 Portfolio</title>
-  </head>
-  <body>
-    <div class="content">
-      <!-- <img src="images/logo.png" id="logo"> -->
-      <h1 id="title">GEOG 4046 Assignment Portfolio</h1>
-      <p>This is a collection of webmaps created for the LSU course GEOG 4046: WebGIS.</p>
-      <hr>
-      <br>
-      <ul>
-        <li><a href="http://arcg.is/2GrTIDU" target="_blank">Book Assignment 01</a>
-        <p>WebMap displaying top 3 destinations to visit in Puerto Rico.</p>
-        <img src="images/book1.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://arcg.is/u0Sva" target="_blank">Book Assignment 02</a>
-        <p>WebMap displaying location and data for earthquakes in the past week.</p>
-        <img src="images/book2.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://lsugeog4046stu.maps.arcgis.com/apps/Editor/index.html?appid=37462e5a1dee4b88a87120a9bb124ee0" target="_blank">Book Assignment 03a</a>
-        <p>WebMap that allows users to input locations on map where sightings were spotted on LSU's campus.</p>
-        <img src="images/book3a.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://lsugeog4046stu.maps.arcgis.com/apps/webappviewer/index.html?id=6e09b6ae95da497dad32f3403b456008" target="_blank">Book Assignment 05</a>
-        <p>WebMapping Application that displays Louisiana Parish Demographic information.</p>
-        <img src="images/book5.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://lsugeog4046stu.maps.arcgis.com/apps/TimeAware/index.html?appid=20d416a3153c480aaa1b28810ac719ed" target="_blank">Book Assignment 06a</a>
-        <p>WebMap that displays historical earthquake and hurricane data from the years 2000 to 2008.</p>
-        <img src="images/book6a.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://4046midterm.maps.arcgis.com/apps/webappviewer/index.html?id=a855e7b7b46743108b5ed50cafc8f262" target="_blank">Midterm Project Analysis WebApp</a>
-        <p>Analysis web application for midterm project.</p>
-        <img src="images/analysis-app.png" class="book-assignment">
-        <br></li>
-        <li><a href="https://4046midterm.maps.arcgis.com/apps/webappviewer/index.html?id=ff2dfd535efb402abc171526217a4af9" target="_blank">Midterm Project Viewer WebApp</a>
-        <p>Viewer web application for midterm project.</p>
-        <img src="images/viewer-app.png" class="book-assignment">
-        <br></li>
-      </ul>
-    </div>
-    <script src="code-assignment-05.js"></script>
-  </body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Adrian J. Colon</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type = "text/javascript" src="index.js"></script>
+	</head>
+	<body data-top="background-image: linear-gradient(35deg, hsl(38, 98%, 49%), hsl(204, 100%, 29%));" data-end="background-image: linear-gradient(215deg, hsl(38, 98%, 49%), hsl(204, 100%, 29%));">
+		<div class="main">
+			<nav id="navbar">
+				<ul>
+					<li><a href="#intro-section">bio</a></li>
+					<li><a href="#exp-title">experience</a></li>
+					<li><a href="#school-title">school</a></li>
+					<li><a href="#classes-title">classes</a></li>
+				</ul>
+			</nav>
+
+			<section id="intro-section">
+				<div id="intro-wrapper">
+					<div class="intro-body" data-anchor-target="#intro-section" data-top="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1">
+						<h1 id="intro-title">ADRIAN J COLÓN</h1>
+						<div class="picture">
+							<img id="headshot" src="images/headshot.png">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="content-section">
+					<div id="content-wrapper">
+							<div class="content-body" data-anchor-target="#content-section" data-0="opacity: 0;" data-top="opacity: 1;" style="opacity: 0">
+								<b id="exp-title">Experience:</b>
+								<div class="experience">
+									<div class="BentleySystems">
+										<div class="exp-container">
+											<b class="company-name">Bentley Systems</b>
+											<p class="jobtitle">Software Engineer Intern <i class="jobdate">May 2016 - Aug 2016</i></p>
+											<p class="desc">
+												- Write a C++ program to read a binary file and convert data to SQLite Database and <br>
+												  vice versa.<br>
+												- Integrate SQLite Database; entering and retrieving data through program.<br>
+												- Use Source Control and Version Control in Microsoft Visual Studio to update team <br>
+												with new commits and bugs.
+											</p>
+										</div>
+									</div>
+									<br>
+									<br>
+									<br>
+									<div class="LSUSystems">
+										<div class="container">
+											<b class="company-name">LSU College of Engineering</b>
+											<p class="jobtitle">Assistant Systems Administrator <i class="jobdate">Jan 2016 - Present</i></p>
+											<p class="desc">
+												- Work alongside Systems Manager to keep computer systems updated and running.<br>
+												- Handle day-to-day IT technical issues.<br>
+												- Operate on Linux servers to maintain them and keep them up to date.<br>
+												- Build custom university machines for students or faculty.
+											</p>
+										</div>
+									</div>
+									<br>
+									<br>
+									<br>
+									<div class="LSUStudentWork">
+										<div class="container">
+											<b class="company-name">LSU College of Engineering</b>
+											<p class="jobtitle">Student Worker <i class="jobdate">Aug 2014 - Dec 2015</i></p>
+											<p class="desc">
+												- Assisted incoming computer science students at the summer orientations schedule <br>
+												their courses and answered their questions.<br>
+												- Develop complex spreadsheets in Microsoft Excel and write reports.<br>
+												- General office duties including; printing, organizing and filing.
+											</p>
+										</div>
+									</div>
+								</div>
+								<br>
+								<br>
+								<b id="school-title">School:</b>
+								<div class="school" data-top="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1">
+									<div class="school-container">
+										<b class="school-name">Louisiana State University</b>
+										<p class="degree-title">Bachelor's in Computer Science<i class="school-date">Aug 2014 - May 2018</i></p>
+										<p class="achievements-title">Achievements:</p>
+										<p class="desc">
+											- GPA: 3.7 <br>
+											- Dean's list <br>
+											- Academic Scholars Resident Award <br>
+											- Association for Computing Machinery (ACM) @ LSU Member <br>
+											- ACM International Collegiate Programming Contest Participant
+										</p>
+									</div>
+								</div>
+								<b id="classes-title">Classes:</b>
+								<div class="classes" data-top="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1">
+									<div class="classes-container">
+										<b class="class-name"><a href="GEOG4046/index.html">GEOG 4046: Web GIS</a></b>
+									</div>
+								</div>
+							</div>
+				</div>
+			</section>
+			<footer id="footer">
+				<div>
+				</div>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+		<script>
+			var s = skrollr.init();
+		</script>
+	</body>
 </html>
