@@ -1,4 +1,3 @@
-//let someName = L.map('your-map-div-id').setView([yourLat, yourLon], yourZoom)
 let webmap01 = L.map('webmap01').setView([51.505, -0.09], 13)
 L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}").addTo(webmap01)
 
